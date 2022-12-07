@@ -1,0 +1,25 @@
+:root{
+    --verde-fluor: #8fdfac;
+    --verde-claro: #c0d8d8;
+    --verde-medio: #87b5b5;
+    --verde-forte: #4aa3a3;
+    --preto: #222;
+    --azul-forte: #000046;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    word-break: break-all;
+}
+
+body{
+    background-color: var(--verde-medio);
+    color: var(--preto);
+    
+    padding: 20px;
+    margin: 0;
+    
+    width: 100%;
+    height: 100%;
+}
