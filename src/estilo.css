@@ -42,6 +42,10 @@ body{
     width: 800px;
 }
 
+.janela:last-of-type{
+    width: 850px;
+}
+
 .topo{
     background-color: var(--verde-forte);
     border: 1px solid var(--azul-forte);
@@ -72,11 +76,14 @@ span{
     align-items: center;
 }
 
-#editor{
+#editor, #preview{
     background-color: var(--verde-claro);
     border: 1px solid var(--preto);  
     
     width: 100%;
+}
+
+#editor{ 
     height: 220px;
     padding: 10px;
     margin: 0;
@@ -84,4 +91,9 @@ span{
     
     font-size: .9rem;  
     resize: vertical;
+}
+
+#preview{
+    padding: 15px;  
+    min-height: 220px;
 }
