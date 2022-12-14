@@ -96,4 +96,40 @@ span{
 #preview{
     padding: 15px;  
     min-height: 220px;
+    overflow-x: scroll;
+}
+
+@media only screen and (max-width:850px){
+    .janela:first-of-type{
+        width: 600px;
+    }
+  
+    .janela:last-of-type{
+        width: 650px;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .janela:first-of-type{
+        width: 80%;
+    }
+  
+    .janela:last-of-type{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .janela{
+        min-width: 300px;
+        margin: auto;
+    }
+
+    #editor{
+        overflow-x: scroll;
+    }
+
+    body{        
+        padding: 10px 0;
+    }
 }
