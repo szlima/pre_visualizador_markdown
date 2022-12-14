@@ -66,7 +66,7 @@ body{
     margin-right: 10px;
 }
 
-.fa-maximize:hover{
+.fa-maximize:hover, .fa-down-left-and-up-right-to-center:hover{
   color: var(--verde-fluor);
   cursor: pointer;
 }
